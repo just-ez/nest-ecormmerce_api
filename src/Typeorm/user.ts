@@ -7,6 +7,7 @@ export class Users {
     name: 'user_id',
   })
   id: number;
+  
   @Column({
     nullable: false,
     default: '',
